@@ -40,17 +40,20 @@ nav > div{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    /* width: 60%; */
 }
 
 nav div ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 17px;
 }
 nav div ul li{
     list-style: none;
     margin: auto 20px;
+    color: #3e5065f0;
+    font-weight: 500;
 }
 
 #bgm1 {
@@ -151,4 +154,38 @@ position: absolute;
     background: transparent url('img/Group 654.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     position: relative;
+}
+
+.nav-bar-main{
+    display: flex;
+    /* border:2px solid black ;  */
+
+}
+.nav-child-2{
+    display: flex;
+    /* border:1px solid black ;  */
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+}
+
+.nav-button{
+    background-color: #3D5065  ;
+    border-radius: 48px;
+    opacity: 1;
+    color: white;
+    padding: 7px 14px;
+    width: 162px;
+    font-size: 15px;
+    border: none;
+}
+
+.logo-img{
+     
+        width: 169px;
+        position: relative;
+        margin-top: 10px;
+   
 }
